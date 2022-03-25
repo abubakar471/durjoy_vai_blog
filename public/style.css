@@ -98,6 +98,41 @@
     color: white;
 }
 
+/* developer page */
+.developer-container-main{
+    padding: 100px 0;
+    background: url('/images/2.jpg');
+}
+.developer-container-main .container{
+    width: 80%;
+    margin: auto;
+    padding: 100px;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.developer-container-main .container h1{
+    color: rgb(29, 143, 236);
+    margin: 15px 0;
+}
+.developer-container-main .container img{
+    width: 250px;
+    height: 200px;
+    margin: 15px 0;
+}
+.developer-container-main .container h3{
+    color: rgb(12, 157, 201);
+    margin: 15px 0;
+    
+}
+.developer-container-main .container h4{
+    color: rgb(29, 143, 236);
+    margin: 15px 0;
+    font-family: 'Fira code', sans-serif;
+}
+.developer-container-main .container p{
+    color: rgb(29, 143, 236);
+    margin: 15px 0;
+}
 
 /* createpost page */
 .create-blog-post-container{

@@ -47,6 +47,12 @@ app.get('/blog', (req, res) => {
     }
 })
 
+app.get('/developer', (req,res) => {
+    res.render('developer', {
+        pageTitle : 'Developer: Durjoy Vai'
+    });
+})
+
 app.post('/blog', (req, res) => {
     var title = req.body.title;
     var body = req.body.body;
