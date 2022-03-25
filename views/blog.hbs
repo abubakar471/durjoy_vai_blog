@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{pageTitle}}</title>
+    <link rel="stylesheet" href="/public/style.css">
+</head>
+
+
+
+<body>
+    {{> header}}
+
+    <div class="main-blog-container">
+        <div class="blog-container">
+            {{#each posts}}
+            <div class="card">
+                <h1>{{title}}</h1>
+                <i>{{createdAt}}</i>
+                <p>
+                    {{body}}
+                </p>
+            </div>
+
+            {{else}}
+            <h2 class="blog-empty">No posts found</h2>
+            {{/each}}
+
+
+
+        </div>
+    </div>
+
+    {{> footer}}
+</body>
+
+</html>
